@@ -1,0 +1,17 @@
+{
+    "name": "joseahernandez/bowlingGame",
+    "authors": [
+        {
+            "name": "Jose Hernandez"
+        }
+    ],
+    "require": {
+        "php": ">=5.6",
+        "phpunit/phpunit": "^5.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "joseahernandez\\bowlingGame\\": "src/bowlingGame/"
+        }
+    }
+}
