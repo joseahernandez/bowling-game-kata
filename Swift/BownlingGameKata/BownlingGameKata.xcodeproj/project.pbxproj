@@ -1,0 +1,341 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		829DC2AC1C4038340036C079 /* BowlingGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 829DC2AB1C4038340036C079 /* BowlingGame.swift */; };
+		829DC2B51C42B4170036C079 /* BowlingGameTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 829DC2B41C42B4170036C079 /* BowlingGameTest.swift */; };
+		829DC2BA1C42B4220036C079 /* BowlingGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 829DC2AB1C4038340036C079 /* BowlingGame.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		823DF9FE1C1649FD00EB1778 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		823DFA001C1649FD00EB1778 /* BownlingGameKata */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = BownlingGameKata; sourceTree = BUILT_PRODUCTS_DIR; };
+		829DC2AB1C4038340036C079 /* BowlingGame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BowlingGame.swift; sourceTree = "<group>"; };
+		829DC2B21C42B4170036C079 /* BowlingGameTest.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BowlingGameTest.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		829DC2B41C42B4170036C079 /* BowlingGameTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BowlingGameTest.swift; sourceTree = "<group>"; };
+		829DC2B61C42B4170036C079 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		823DF9FD1C1649FD00EB1778 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		829DC2AF1C42B4170036C079 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		823DF9F71C1649FD00EB1778 = {
+			isa = PBXGroup;
+			children = (
+				823DFA021C1649FD00EB1778 /* BownlingGameKata */,
+				829DC2B31C42B4170036C079 /* BowlingGameTest */,
+				823DFA011C1649FD00EB1778 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		823DFA011C1649FD00EB1778 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				823DFA001C1649FD00EB1778 /* BownlingGameKata */,
+				829DC2B21C42B4170036C079 /* BowlingGameTest.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		823DFA021C1649FD00EB1778 /* BownlingGameKata */ = {
+			isa = PBXGroup;
+			children = (
+				829DC2AB1C4038340036C079 /* BowlingGame.swift */,
+			);
+			path = BownlingGameKata;
+			sourceTree = "<group>";
+		};
+		829DC2B31C42B4170036C079 /* BowlingGameTest */ = {
+			isa = PBXGroup;
+			children = (
+				829DC2B41C42B4170036C079 /* BowlingGameTest.swift */,
+				829DC2B61C42B4170036C079 /* Info.plist */,
+			);
+			path = BowlingGameTest;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		823DF9FF1C1649FD00EB1778 /* BownlingGameKata */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 823DFA071C1649FD00EB1778 /* Build configuration list for PBXNativeTarget "BownlingGameKata" */;
+			buildPhases = (
+				823DF9FC1C1649FD00EB1778 /* Sources */,
+				823DF9FD1C1649FD00EB1778 /* Frameworks */,
+				823DF9FE1C1649FD00EB1778 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BownlingGameKata;
+			productName = BownlingGameKata;
+			productReference = 823DFA001C1649FD00EB1778 /* BownlingGameKata */;
+			productType = "com.apple.product-type.tool";
+		};
+		829DC2B11C42B4170036C079 /* BowlingGameTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 829DC2B71C42B4170036C079 /* Build configuration list for PBXNativeTarget "BowlingGameTest" */;
+			buildPhases = (
+				829DC2AE1C42B4170036C079 /* Sources */,
+				829DC2AF1C42B4170036C079 /* Frameworks */,
+				829DC2B01C42B4170036C079 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BowlingGameTest;
+			productName = BowlingGameTest;
+			productReference = 829DC2B21C42B4170036C079 /* BowlingGameTest.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		823DF9F81C1649FD00EB1778 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Jose Hernandez";
+				TargetAttributes = {
+					823DF9FF1C1649FD00EB1778 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					829DC2B11C42B4170036C079 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 823DF9FB1C1649FD00EB1778 /* Build configuration list for PBXProject "BownlingGameKata" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 823DF9F71C1649FD00EB1778;
+			productRefGroup = 823DFA011C1649FD00EB1778 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				823DF9FF1C1649FD00EB1778 /* BownlingGameKata */,
+				829DC2B11C42B4170036C079 /* BowlingGameTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		829DC2B01C42B4170036C079 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		823DF9FC1C1649FD00EB1778 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				829DC2AC1C4038340036C079 /* BowlingGame.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		829DC2AE1C42B4170036C079 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				829DC2BA1C42B4220036C079 /* BowlingGame.swift in Sources */,
+				829DC2B51C42B4170036C079 /* BowlingGameTest.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		823DFA051C1649FD00EB1778 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		823DFA061C1649FD00EB1778 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		823DFA081C1649FD00EB1778 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		823DFA091C1649FD00EB1778 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		829DC2B81C42B4170036C079 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = BowlingGameTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = joseahernandez.BowlingGameTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		829DC2B91C42B4170036C079 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = BowlingGameTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = joseahernandez.BowlingGameTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		823DF9FB1C1649FD00EB1778 /* Build configuration list for PBXProject "BownlingGameKata" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				823DFA051C1649FD00EB1778 /* Debug */,
+				823DFA061C1649FD00EB1778 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		823DFA071C1649FD00EB1778 /* Build configuration list for PBXNativeTarget "BownlingGameKata" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				823DFA081C1649FD00EB1778 /* Debug */,
+				823DFA091C1649FD00EB1778 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		829DC2B71C42B4170036C079 /* Build configuration list for PBXNativeTarget "BowlingGameTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				829DC2B81C42B4170036C079 /* Debug */,
+				829DC2B91C42B4170036C079 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 823DF9F81C1649FD00EB1778 /* Project object */;
+}
